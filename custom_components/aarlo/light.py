@@ -32,7 +32,7 @@ from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity import DeviceInfo
 from homeassistant.config_entries import ConfigEntry
 
-from pyaarlo.constant import (
+from .pyaarlo.constant import (
     BRIGHTNESS_KEY,
     FLOODLIGHT_KEY,
     LAMP_STATE_KEY,

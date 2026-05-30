@@ -22,7 +22,7 @@ from homeassistant.helpers.config_validation import PLATFORM_SCHEMA
 from homeassistant.helpers.entity import DeviceInfo
 from homeassistant.config_entries import ConfigEntry
 
-from pyaarlo.constant import (
+from .pyaarlo.constant import (
     ALS_STATE_KEY,
     AUDIO_DETECTED_KEY,
     BUTTON_PRESSED_KEY,

@@ -27,7 +27,7 @@ from homeassistant.helpers.entity import DeviceInfo
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.util import slugify
 
-from pyaarlo.constant import (
+from .pyaarlo.constant import (
     AIR_QUALITY_KEY,
     BATTERY_KEY,
     CAPTURED_TODAY_KEY,

@@ -37,7 +37,7 @@ from homeassistant.helpers.event import async_track_point_in_time
 from homeassistant.helpers.entity import DeviceInfo
 from homeassistant.config_entries import ConfigEntry
 
-from pyaarlo.constant import (
+from .pyaarlo.constant import (
     MODE_KEY,
     SIREN_STATE_KEY
 )
