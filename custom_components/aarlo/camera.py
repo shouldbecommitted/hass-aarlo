@@ -43,8 +43,8 @@ from homeassistant.helpers.config_validation import PLATFORM_SCHEMA
 from homeassistant.helpers.entity import DeviceInfo
 from homeassistant.config_entries import ConfigEntry
 
-from . import pyaarlo
-from .pyaarlo.constant import (
+import pyaarlo
+from pyaarlo.constant import (
     ACTIVITY_STATE_KEY,
     CHARGER_KEY,
     CHARGING_KEY,

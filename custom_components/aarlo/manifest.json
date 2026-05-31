@@ -15,7 +15,8 @@
     "unidecode",
     "curl_cffi",
     "cloudscraper",
-    "aiofiles"
+    "aiofiles",
+    "git+https://github.com/shouldbecommitted/pyaarlo@master#egg=pyaarlo"
   ],
   "version": "0.8.1.20"
 }

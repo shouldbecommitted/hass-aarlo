@@ -40,7 +40,7 @@ from homeassistant.helpers.issue_registry import (
 from homeassistant.helpers.typing import ConfigType
 import homeassistant.helpers.device_registry as dr
 
-from .pyaarlo.constant import (
+from pyaarlo.constant import (
     DEFAULT_AUTH_HOST,
     DEFAULT_HOST,
     DEVICE_ID_KEY,
@@ -401,7 +401,7 @@ def login(hass, conf):
     while True:
 
         try:
-            from .pyaarlo import PyArlo
+            from pyaarlo import PyArlo
 
             if attempt != 1:
                 _LOGGER.debug(f"login-attempt={attempt}")

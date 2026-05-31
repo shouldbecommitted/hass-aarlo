@@ -35,7 +35,7 @@ from homeassistant.const import (
 from homeassistant.helpers import config_validation as cv
 from homeassistant.util.yaml import parse_yaml, dump
 
-from .pyaarlo.constant import (
+from pyaarlo.constant import (
     AIR_QUALITY_KEY,
     ALS_STATE_KEY,
     AUDIO_DETECTED_KEY,

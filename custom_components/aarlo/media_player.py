@@ -26,7 +26,7 @@ from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity import DeviceInfo
 from homeassistant.config_entries import ConfigEntry
 
-from .pyaarlo.constant import MEDIA_PLAYER_KEY
+from pyaarlo.constant import MEDIA_PLAYER_KEY
 
 from .const import (
     COMPONENT_ATTRIBUTION,
